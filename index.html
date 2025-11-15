@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>Webサイト模写その1</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+<body>
+
+<header>
+  <div class="header-container">
+    <!-- 左側：メインロゴとナビゲーション -->
+    <div class="header-left">
+      <div class="header-logo">
+        <img src="https://d3vgbguy0yofad.cloudfront.net/common/images/header/logo.svg" alt="メインロゴ">
+      </div>
+      <!-- PCサイズ時に表示するナビゲーション -->
+      <nav class="header-nav desktop-only">
+        <ul>
+          <li>メニュー</li>
+          <li>サービス</li>
+          <li>リワード</li>
+        </ul>
+      </nav>
+    </div>
+    
+    <!-- 右側：アイコンとロゴ群 -->
+    <div class="header-right">
+      <!-- アイコンとロゴを1行に並べる -->
+      <div class="icon-logo-row">
+        <!-- アイコン群（常に表示） -->
+        <div class="icon-group">
+          <div class="icon-item">
+            <img src="https://d3vgbguy0yofad.cloudfront.net/common/images/header/icon_search.svg" alt="検索">
+          </div>
+          <div class="icon-item desktop-only">
+            <img src="https://d3vgbguy0yofad.cloudfront.net/common/images/header/icon_pin.svg" alt="マップ">
+          </div>
+          <div class="icon-item desktop-only">
+            <img src="https://d3vgbguy0yofad.cloudfront.net/common/images/header/icon_mypage.svg" alt="マイページ">
+          </div>
+          <div class="icon-item">
+            <img src="https://d3vgbguy0yofad.cloudfront.net/common/images/header/icon_cart.svg" alt="カート">
+          </div>
+        </div>
+        
+        <!-- 会社ロゴ群（PCサイズ時のみ表示） -->
+        <div class="company-logos desktop-only">
+          <div class="logo-item">
+            <img src="https://d3vgbguy0yofad.cloudfront.net/common/images/header/logo_stories.svg" alt="ストーリーズ">
+          </div>
+          <div class="logo-item">
+            <img src="https://d3vgbguy0yofad.cloudfront.net/common/images/header/logo_reserve.svg" alt="リザーブ">
+          </div>
+        </div>
+        <!-- モバイル時に表示するハンバーガーメニュー -->
+        <div class="hamburger-menu mobile-only">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- モバイル用メニュー（横並び表示・初期状態では非表示） -->
+  <div class="mobile-menu">
+    <div class="mobile-menu-container">
+      <nav class="mobile-nav">
+        <ul>
+          <li>メニュー</li>
+          <li>サービス</li>
+          <li>リワード</li>
+        </ul>
+      </nav>
+      <div class="mobile-company-logos">
+        <div class="logo-item">
+          <img src="https://d3vgbguy0yofad.cloudfront.net/common/images/header/logo_stories.svg" alt="ストーリーズ">
+        </div>
+        <div class="logo-item">
+          <img src="https://d3vgbguy0yofad.cloudfront.net/common/images/header/logo_reserve.svg" alt="リザーブ">
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+    <div class="main-list fade-in-on-scroll">
+        <ul class="main-komund">
+            <li>カート</li>
+            <li>お届け先</li>
+            <li>お支払い</li>
+            <li>確認</li>
+            <li>完了</li>
+        </ul>
+
+        <p class="shipping-banner">5,000円（税抜）以上ご購入で送料無料</p>
+    </div>
+
+    <div class="container fade-in-on-scroll">
+        <div class="container-left">
+            <h1><i class="fas fa-shopping-cart"></i> カート</h1>
+        </div>
+
+        <div class="container-right">
+            <div class="cart-empty-card">
+                <p class="cart-empty-message">カートに商品は入っていません。</p>
+                <img src="https://cart.starbucks.co.jp/cart_no_item.png" class="small-img">
+
+                <div class="ticket-section">
+                    <div class="ticket-header">
+                        eTicket
+                    </div>
+                    <div class="ticket-body">
+                        ログインするとご利用可能なチケットが表示されます。
+                    </div>
+                </div>
+
+                <div class="find-products-action">
+                    <a href="#" class="action-btn">商品を探す</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer class="fade-in-on-scroll">
+  <div class="footer-wrapper">
+    <div class="footer-tab">
+      <div class="footer-list">
+        <div class="list-head">Company</div>
+        <div class="list-low">
+          <a href="#">会社案内</a>
+          <a href="#">会社概要</a>
+          <a href="#">沿革</a>
+          <a href="#">Our misson,<br>Promises and Values</a>
+        </div>
+      </div>
+      <div class="footer-list">
+        <div class="list-head">Recruiting</div>
+        <div class="list-low">
+          <a href="#">採用TOP</a>
+          <a href="#">スターバックスな未来</a>
+          <a href="#">働く環境</a>
+          <a href="#">新卒採用</a>
+          <a href="#">店舗中途採用</a>
+          <a href="#">SC中途採用</a>
+          <a href="#">アルバイト採用</a>
+        </div>
+      </div>
+      <div class="footer-list">
+        <div class="list-head">Social Impact</div>
+        <div class="list-low">
+          <a href="#">Social Impact</a>
+          <a href="#">People&Comunity</a>
+          <a href="#">Planet</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="bottom-list">
+      <ul>
+        <li>
+          <a href="#">よくあるご質問・お問い合わせ</a>
+        </li>
+        <li>
+          <a href="#">使用条件</a>
+        </li>
+        <li>
+          <a href="#">ポリシー・約款・規約一覧</a>
+        </li>  
+        <li>
+          <a href="#">サイトマップ</a>
+        </li>
+      </ul>
+    </div>
+    <div class="bottom-icon">
+      <li>
+        <a href="#">
+          <img src="https://d3vgbguy0yofad.cloudfront.net/common/images/footer/icon-x.svg" alt="icon-x">
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="https://d3vgbguy0yofad.cloudfront.net/common/images/footer/icon-instagram.svg" alt="icon-instagram">
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="https://d3vgbguy0yofad.cloudfront.net/common/images/footer/icon-facebook.svg" alt="icon-facebook">
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="https://d3vgbguy0yofad.cloudfront.net/common/images/footer/icon-line.svg" alt="icon-line">
+        </a>
+      </li>
+    </div>
+  </div>
+    
+</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
