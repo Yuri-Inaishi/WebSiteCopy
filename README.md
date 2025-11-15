@@ -1,4 +1,4 @@
-# [スターバックスのECサイト] 
+# [スターバックスのECサイト] 模写
 
 スターバックスのECサイトを参考にして作成した模写サイトです。  
 HTML、CSS、JavaScriptの学習を目的として制作しました。
@@ -7,10 +7,6 @@ HTML、CSS、JavaScriptの学習を目的として制作しました。
 
 <!-- スクリーンショットを追加 -->
 ![完成画像](./images/screenshot.png)
-
-## デモサイト
-
-[GitHub Pages で公開](https://github.com/Yuri-Inaishi/WebSiteCopy.git)
 
 ## 制作目的
 
