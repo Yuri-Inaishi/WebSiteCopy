@@ -1,7 +1,8 @@
 # [スターバックスのECサイト] 模写
 
 スターバックスのECサイトを参考にして作成した模写サイトです。  
-HTML、CSS、JavaScriptの学習を目的として制作しました。
+プログラミング学習をスタートして初めての製作物となります。
+HTML、CSSで作成したものに、AI技術を活用してJavaScriptで機能を追加しました。
 
 ## 完成画像
 
@@ -84,10 +85,3 @@ project-root/
 - [ ] お問い合わせフォームの実装
 - [ ] SEO対策の実施
 
-## お問い合わせ
-
-何かご質問がございましたら、お気軽にお声かけください。
-
-- GitHub: [@Yuri-Inaishi](https://github.com/Yuri-Inaishi)
-- Email: yuri.0228ex@gmail.com
-- Portfolio: https://github.com/Yuri-Inaishi/WebSiteCopy.git
